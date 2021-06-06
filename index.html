@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Animale</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            background-color: azure;
+            background-image: url("./media/vultur.jpg");
+            background-position: center;
+            background-size: contain;
+            margin: 0;
+        }
+        h1 {
+            text-align: center;
+            font-size: 60px;
+            text-shadow: 1px 1px 2px;
+        }
+        nav {
+            background-color: rgba(172, 200, 200, 0.6);
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+        }
+        nav a:link {
+            color: back;
+        }
+        nav a:visited {
+            color: back;
+        }
+        nav a:hover {
+            text-shadow: 1px 1px 2px green;
+        }
+        nav a:active {
+            color: violet;
+        }
+        section {
+            background-color:rgba(172, 200, 200, 0.6);
+            padding: 3%;
+        }
+        section p {
+            font-size: 30px;
+            text-indent: 5%;
+        }
+        .video-container {
+            display: flex;
+            width: 100%;
+            padding: 0;
+        }
+        .iframe-container {
+            position: relative;
+            overflow: hidden;
+            width: 50%;
+            padding-top: 28.12%;
+        }
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+        }
+        footer {
+            background-color: rgba(172, 200, 200, 0.6);
+            margin-bottom: 0;
+            border: 3px solid rgb(172, 200, 200);
+            box-shadow: 1px 1px 5px white;
+            margin-top: 15px;
+        }
+        footer h4 {
+            font-size: 25px;
+            text-align: center;
+        }
+        table {
+            background-color: rgba(172, 200, 200, 0.6);
+            margin-bottom: 0;
+            border: 3px solid rgb(172, 200, 200);
+            box-shadow: 1px 1px 5px white;
+            margin-top: 15px;
+        }
+        table {
+            font-size: 20px;
+            text-indent: 5%;
+        }
+        table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+    </style>
+</head>
+<body>
+    <h1>Animale</h1>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Acasă</a></li>
+            <li><a href="./categorii.html">Categorii</a></li>
+            <li><a href="./imagini.html">Imagini</a></li>
+            <li><a href="./istorie.html">Istorie</a></li>
+        </ul>
+    </nav>
+    <section>
+        <p>
+            Cuvântul „animal” provine din cuvântul latin animalis, derivat la rândul său de la anima,
+            ce înseamnă suflu vital sau suflet. Definiția biologică a cuvântului se referă la toți membrii regnului Animalia.
+            În utilizarea colocvială, ca o consecință a antropocentrismului,
+            termenul de animal este folosit pentru a se referi doar la animale non-umane.
+        </p>
+        <p>
+            Sunt denumite animale răpitoare sau de pradă acele animale care se hrănesc cu alte animale. 
+            Ele se întîlnesc printre mamifere (carnivorele), păsări, reptile, pești, insecte, viermi ș. a.
+            Mamiferele și păsările sunt înzestrate cu organe de înhățare și ucidere a victimei - cu gheare, 
+            dinți, ciocuri ascuțite; insectele - cu mandibule speciale ș. a. m. d.
+            Unele răpitoare pândesc prada și în legătură cu aceasta în procesul evoluției au căpătat o colorație 
+            protectoare, corespunzătoare mediului în care trăiesc.
+            De exemplu, vulpea-polară (iarna), bufnița-polară, ursul-alb (din regiunile nordice) au culoarea albă, 
+            șerpii-tropicali din jungle au culoarea pestriță, tigrul are blana cu dungi transversale.
+        </p>
+        <p>
+            Răpitoarele care trăiesc în stepe, pustiuri - de regulă, își vânează prada prin urmărire.
+            Ele sunt suple, vânjoase, au picioarele lungi, vederea ageră.
+            Animalele răpitoare de pădure au mirosul și auzul bine dezvoltate.
+            Mamiferele răpitoare au corpul mlădios, iar păsările răpitoare - aripile scurte și coada lungă, 
+            toate servind pentru manevrarea rapidă printre tulpinile și crengile copacilor.
+        </p>
+    </section>
+    <section class="video-container">
+        <div class="iframe-container">
+            <iframe 
+                src="https://www.youtube.com/embed/dZ6F1KTnAVg" 
+                title="Wild animal chases part one" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen
+            ></iframe>
+        </div>
+        <div class="iframe-container">
+            <iframe 
+                src="https://www.youtube.com/embed/hrWd_-jDVB0" 
+                title="Wild animal chases part two" 
+                frameborder="0"      
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen
+            >
+            </iframe>
+        </div>
+        <div class="iframe-container">
+            <iframe src="https://www.youtube.com/embed/vGOfw4Syr2k" 
+            title="ANIMALE PERICULOASE" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>        
+             > </iframe>
+        </div>
+        <div class="iframe-container">
+            <iframe src="https://www.youtube.com/embed/OfGXvr7ua3g"
+            title="Creaturi PERICULOASE" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+    <section>
+        <p>
+            Din păcate, adesea animalele înzestrate cu cioc ascuțit, 
+            cu gheare și colți sunt considerate dăunători care trebuie nimiciți fără cruțare, 
+            dar aceasta e o părere greșită, bazată pe cunoașterea insuficientă a naturii.
+        </p>
+        <p>
+            Încrucișare genetică este procesul de reproducere a unui animal din părinți proveniți din două rase, 
+            soiuri sau populații diferite, de multe ori cu intenția de a crea descendenți care conțin trăsături ale ambelor rase 
+            sau de a produce un organism hibrid viguros. În timp ce încrucișarea este utilizată pentru menținerea sănătății și a viabilității organismelor,
+            încrucișarea iresponsabilă poate produce, de asemenea,organisme de calitate inferioară sau poate dilua o rasă pură până la punctul de dispariție al unei rase.
+        </p>
+    </section>
+    <table style="width:100%">
+        <tr>
+          <th>HIBRID</th>
+          <th>MASCULUL</th>
+          <th>FEMELA</th>
+        </tr>
+        <tr>
+            <td>Jaglionul</td>
+            <td>Jaguar</td>
+            <td>Leoaica</td>
+        </tr>
+        <tr>
+            <td>Narluga</td>
+            <td>Narval</td>
+            <td>Balena Alba</td>
+        </tr>
+        <tr>
+            <td>Zebroidul</td>
+            <td>Cal</td>
+            <td>Zebra</td>
+        </tr>
+        <tr>
+            <td>Albina ucigasa</td>
+            <td>Albina africana</td>
+            <td>Albina europeana</td>
+        </tr>
+        <tr>
+            <td>Pisica de savana</td>
+            <td>Pisica africana</td>
+            <td>Pisica domestica</td>
+        </tr>
+        <tr>
+            <td>Mulardul</td>
+            <td>Rata leseasca</td>
+            <td>Rata domestica</td>
+        </tr>
+        <tr>
+            <td>Geep</td>
+            <td>Oaie</td>
+            <td>Capra</td>
+        </tr>
+          <td>Leoponul</td>
+          <td>Leopard</td>
+          <td>Leoaica</td>
+        </tr>
+        <tr>
+            <td>Porc Mangalița</td>
+            <td>Porc Sârbesc</td>
+            <td>Mistret</td>
+        </tr>
+        <tr>
+           <td>Pisica Bengaleză</td>
+           <td>Pisica Leopard Asiatica</td>
+           <td>Pisica Egipteana</td>
+        </tr>
+        <tr>
+           <td>Cama</td>
+           <td>Cămila</td>
+           <td>Lama</td>
+        </tr>
+      </table>
+      <section>
+        <p>
+            Evoluția animalelor răpitoare a decurs concomitent cu evoluția animalelor-pradă, 
+            ceea ce a lăsat o anumită amprentă asupra biologiei lor. 
+            Astfel, cu cât o specie este nimicită mai mult de animalele răpitoare, cu atât ea este mai fecundă. 
+            În urm înmulțirii în masă a animalelor-pradă crește numărul răpitoarelor care se hrănesc cu ele. 
+            Vânătorii au remarcat demult faptul că după anii când abundă rozătoarele urmează numaidecât creșterea numărului de vulpi.
+            În asemenea ani bufnițele ți șorecarii scop pui de 2 - 3 ori. 
+            În anii cu puțină hrană, răpitoarele au mai puțini urmași sau nu se înmulțesc deloc.
+        </p>
+        <p>
+            Toate animalele sunt compuse din celule, înconjurate de o membrană extracelulară specifică compusă din colagen și 
+            glicoproteine elastice. timpul dezvoltării, membrana extracelulară animală formează un cadru relativ flexibil pe 
+            care celulele se pot deplasa și reorganiza, făcând posibilă formarea structurilor complexe. Aceasta poate fi 
+            calcificată, formând structuri precum oase și cochilii. În schimb, celulele altor organisme multicelulare 
+            (în principal alge, plante și ciuperci) sunt ținute pe loc de pereții celulari, dezvoltându-se prin creștere 
+            progresivă. Celulele animale posedă în mod unic joncțiunile celulare numite joncțiuni ocluzive, de comunicare și de ancorare. 
+        </p>
+        <p>
+            Cu puține excepții — în special bureții și placozoa — animalele au corpul format din mai multe țesuturi. 
+            Acestea includ mușchii care permit locomoția și țesuturile nervoase care transmit semnale și coordonează corpul. 
+            De obicei, există un tub digestiv intern, cu o singură deschidere (la Ctenophora, Cnidaria și viermi plați) sau două deschideri (la majoritatea bilaterienilor).
+        </p>
+        <p>
+            Aproape toate animalele folosesc o formă de reproducere sexuală. Ei produc gameți haploizi prin meioză; gameții 
+            mai mici, mobili, sunt spermatozoizi, iar gameții mai mari, non-motili, sunt ovule. Aceștia fuzionează pentru a 
+            forma zigoți, care se dezvoltă prin mitoză într-o formă globulară goală, numită blastulă. La bureți, larvele de 
+            blastulă înoată într-un nou loc, se atașează pe fundul mării și se dezvoltă într-un nou burete. La majoritatea 
+            celorlalte grupuri, blastula suferă o rearanjare mai complicată. Mai întâi se invaginează (se întoarce spre interior) 
+            pentru a forma o gastrulă cu un tub digestiv și două straturi germinale separate: un ectoderm extern și un 
+            endoderm intern. În majoritatea cazurilor, între ele se dezvoltă și un al treilea strat de germeni, mezodermul. 
+            Aceste straturi germinale se diferențiază apoi pentru a forma țesuturi și organe. 
+        </p>
+        <p>
+            Cazurile repetate de împerechere cu o rudă apropiată în timpul reproducerii sexuale conduc în general la depresie 
+            consangvinizată în cadrul unei populații din cauza prevalenței crescute a trăsăturilor recesive dăunătoare. 
+            Animalele au dezvoltat numeroase mecanisme pentru a evita consangvinizarea apropiată. 
+        </p>
+        <p>
+            Cazurile repetate de împerechere cu o rudă apropiată în timpul reproducerii sexuale conduc în general la 
+            depresie consangvinizată în cadrul unei populații din cauza prevalenței crescute a trăsăturilor recesive dăunătoare. 
+            Animalele au dezvoltat numeroase mecanisme pentru a evita consangvinizarea apropiată
+        </p>
+        <p>
+            Animalele sunt clasificate în grupuri ecologice în funcție de modul în care obțin sau consumă material organic, 
+            inclusiv carnivore, erbivore, omnivore, detritivore, și paraziți. Interacțiunile dintre animale formează rețele 
+            de hrană complexe. La speciile carnivore sau omnivore, prădarea este o interacțiune consumator-resursă în care un 
+            prădător se hrănește cu un alt organism (numit pradă). Presiunile selective impuse unii altora duc la o cursă 
+            evolutivă a înarmărilor între prădător și pradă, rezultând diverse adaptări anti-prădător. Aproape toți 
+            prădătorii multicelulari sunt animale. Unii consumatori folosesc metode multiple; de exemplu, la viespile 
+            parasitoide, larvele se hrănesc cu țesuturile vii ale gazdelor, ucigându-le în acest proces,  însă adulții 
+            consumă nectar în principal din flori. Alte animale pot avea comportamente de hrănire foarte specifice, 
+            cum ar fi broaștele țestoase marine care consumă în principal bureți. 
+        </p>
+        <p>
+            Majoritatea animalelor se bazează pe biomasa și energia produsă de plante prin fotosinteză. Erbivorele mănâncă 
+            material vegetal direct, în timp ce carnivorele și alte animale de niveluri trofice superioare îl achiziționează 
+            în mod indirect consumând alte animale. Animalele oxidează carbohidrații, lipidele, proteinele și alte biomolecule pentru a debloca energia chimică a oxigenului molecular, care permite animalului să crească și să susțină procese biologice, cum ar fi locomoția. Animalele care trăiesc în apropierea izvoarelor hidrotermale consumă materii organice din arhee și bacterii produse în aceste locuri prin chemosinteză 
+            (prin oxidarea compușilor anorganici, cum ar fi hidrogenul sulfurat). 
+        </p>
+        <p>
+            Mai multor încrengături animale le lipsește simetria bilaterală. Dintre acestea, bureții (Porifera) probabil 
+            s-au separat primii, reprezentând cel mai vechi filum animal.Bureților le lipsește organizarea complexă găsită 
+            la majoritatea celorlalte filuri animale;celulele lor sunt diferențiate, dar în majoritatea cazurilor nu sunt 
+            organizate în țesuturi distincte. De obicei, se hrănesc trăgând apă prin pori iar hrana din apă este filtrată.
+        </p>
+        <p>
+            Ctenophora și Cnidaria (care include meduze, anemone de mare și corali) sunt simetric radial și au tuburi 
+            digestive cu o singură deschidere, care servește atât ca gură, cât și ca anus.Animalele din ambele încrengături 
+            au țesuturi distincte, dar acestea nu sunt organizate în organe. Sunt diploblastice, având doar două straturi 
+            germinale principale, ectoderm și endoderm.Micii placozoa sunt asemănători, dar nu au un tub digestiv permanent.
+        </p>
+      </section>
+      <footer>
+        <h4> Vă mulțumesc că ați vizitat acest site. </p>
+    </footer>
+</body>
+</html>
